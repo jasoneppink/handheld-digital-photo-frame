@@ -1,11 +1,13 @@
 # Another Digital Photo Frame
-There are a lot of really great open-source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However, we wanted something that allows the user to hold the display and swipe through the photos, in addition to a standard passive slideshow mode. We were able to make one using off-the-shelf hardware and software for a total of $153.
+There are a lot of really great open-source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However, we wanted something that allows the user to hold the display and swipe through the photos, in addition to a standard passive slideshow mode.
+
+We were able to make one using off-the-shelf hardware and software for a total of $153. Passive wall-mounted displays can be made for cheaper, but that seems like a fair price for a touch screen and interactive capabilities!
 
 | Feature | Solution |
 | --- | --- |
 | Cheap touch screen | [Rooted](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) Amazon Fire HD 8 running [LineageOS](https://lineageos.org/) |
-| Digital photo frame software with passive and interactive modes | [Fotoo](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) |
-| Photos updated via email or cloud storage | [gmail2gdrive](https://github.com/ahochsteger/gmail2gdrive) |
+| Digital photo frame software with passive and interactive modes | [Fotoo](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) via [Open GApps](https://opengapps.org/)|
+| Photos updated via GMail and GDrive | [gmail2gdrive](https://github.com/ahochsteger/gmail2gdrive) |
 | Wireless charging | DIY wireless charging stand |
 
 ## Materials / Costs
@@ -14,45 +16,22 @@ There are a lot of really great open-source and DIY solutions for wall-mounted d
 | [Amazon Fire HD 8 Tablet (2018, 8th Generation)](https://www.amazon.com/gp/product/B0794RHPZD) ($57) | [Micro-USB Qi Charger Receiver](https://www.amazon.com/gp/product/B07C82R5DD) ($11) | [3-Coil Qi Wireless Charger Transmitter](https://www.amazon.com/gp/product/B07M6CRGFP) ($18) | [Tablet Stand](https://www.amazon.com/dp/B06XKCSJDB) ($16) | [E6000 Adhesive (Black)](https://www.amazon.com/Eclectic-Products-Multipurpose-Adhesive-2-Ounce/dp/B07DS6BZR8) ($9) | [Adhesive Felt (Black)](https://www.amazon.com/gp/product/B08CZFQB7M) ($7) | [Square Dowels (Black)](https://www.amazon.com/dp/B00NLOYFTE) ($10) | [Fotoo - Digital Photo Frame Photo Slideshow Player](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) ($25) |
 
 ## Unlock the Tablet
-1. Charge tablet
-2. Open tablet
-3. Follow [these](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) instructions to root the tablet.
-4. After step 10, if you get this error: "fastboot: error unknown target "recovery", you'll need to follow [this](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/post-85721447) additional step.
-```
-fastboot reboot emergency
-```
-5. At step 12, you'll also want to push two more files:
-```
-adb push lineage-18.1???.zip /sdcard
-adb push open_gaps-arm-11-pico???.zip /sdcard
-```
-6. After step 20, reboot into recovery again. (Hold down the power button, select Restart, and hold the volume down button.)
-7. Select "Wipe", then "Advanced Wipe", and select System, Data, and Cache. Swipe to wipe.
-8. Select "Install", then select the Lineage OS ZIP file. Swipe to wipe.
-9. Go back and do the same for the Google Apps ZIP file.
-10. Reboot System. The hard part is done!
-11. Set up WiFi
-12. Set up Google Apps
-13. If everything looks good, you can snap your back on.
+1. Turn off and fully charge the tablet.
+2. Take the back plastic off the tablet.
+3. Follow [these instructions](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) by xyz\` to root the tablet, with the following modifications:
+   1. After Step 10, you may get this error: `fastboot: error unknown target "recovery"` [The solution](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/post-85721447) is to enter this command: `fastboot reboot emergency`
+   2. At Step 12, you'll also want to download two more files: [LineageOS 18.1](https://forum.xda-developers.com/t/rom-unstable-unlocked-karnak-lineage-18-1-25-october-2021.4352241/) unofficial build by Kaijones23 and [Open GApps](https://opengapps.org/) ARM 11.0 Pico. Push them like the other files: `adb push [filename].zip /sdcard`
+   3. After Step 20, reboot into recovery again. (Hold down the power button, select "Restart", then hold the volume down button as the tablet restarts.)
+   4. Select "Wipe", then "Advanced Wipe", and select System, Data, and Cache. Swipe to wipe.
+   5. Select "Install", then select the Lineage OS ZIP file. Swipe to wipe.
+   6. Go back and do the same to install the Open GApps ZIP file. Swipe to wipe.
+   7. Select "Reboot System".
+   8. You're finished! You can reassemble the tablet.
 
-## Install ??
-1. Install Fotoo and Google Drive (optional) from the Google Play Store
-2. Go to Settings, Apps & notifications, "See all 19 apps".
-3. Select each of the following apps and press "Disable". (You may have to select "Force Stop" first.): Android Auto, Browser, Calculator, Calendar, Clock, Contacts, Music, Recorder
-4. Go to About Tablet and tap Build Number 7 times to unlock Developer Mode.
-5. Go to System and select Developer Options. Turn on "Stay Awake" and turn off "Automatic system updates".
-6. In Status Bar, select System icons and turn off everything but WiFi and Battery.
-7. In Status Bar, turn off Auto brightness
-8. In Display, select Adaptive Brightness, then turn Adaptive Brightness off
-9. In Display, select Brightness Level and increase it to 100%
-10. In Display, select Screen Saver, select When to Start, and choose Never
-11. In Display, select Lock screen, select Notifications on lock screen, and select Don'w show notifications at all
-13. In Display, turn off Tap to sleep
-14. Remove all apps from except Fotoo and Google Drive from the Home Screen by pressing and dragging them to the top of the screen. Move Fotoo and Google Drive to your preferred location.
-15. Long press on an empty part of the home screen wall paper until a menu pops up. Select Home Settings.
-16. If you're ready to lock your apps in place, turn off Allow Edit.
-17. Select Hidden & Protected Apps and hide everything but Fotoo and Google Drive
-18. Turn off Show icon labels on desktop.
+## Setup
+1. Set up WiFi
+2. Set up Google Apps
+3. Install Fotoo ($0 demo, $25 fully featured) and Google Drive (optional) from the Google Play Store
 
 ## Fotoo Settings
 1. On launch, select Google Drive and link your account.
@@ -61,10 +40,42 @@ adb push open_gaps-arm-11-pico???.zip /sdcard
 4. Under Order, I prefer Random (preference given to recent photos)
 5. Turn on Launch on boot, and give Fotoo the "draw system overlay" permission when requested
 
-## Set Up Software
-1. Install Google Play
-2. Download Google Drive
-3. Download Fotoo. (The demo version is free. The full featured version is $?.)
+## Backend Setup
+1. Sign up for a new, dedicated Google Account. Something like xxxx.family.photo.frame@gmail.com is probably available. (A bunch of tracking and advertising is enabled by default, so you may want to visit Privacy Settings.)
+2. Create a folder in [Google Drive](https://drive.google.com) named "Digital Photo Frame"
+3. Follow the Setup instructions for [gmail2gdrive](https://github.com/ahochsteger/gmail2gdrive) with the following change:
+   * On Step 5, use this config file instead of the default
+
+## Lock It Down
+1. Go to Settings > Apps & Notifications > See All 19 Apps. Select each of the following apps and press Disable. (You may have to select Force Stop first.)
+   * Android Auto
+   * Browser
+   * Calculator
+   * Calendar
+   * Clock
+   * Contacts
+   * Music
+   * Recorder
+2. In Settings > Display
+   * Select Brightness Level and increase it to 100%
+   * Select Adaptive Brightness and turn Adaptive Brightness off
+   * Select Advanced > Screen Saver > When to Start, and select Never
+   * Under Advanced > Lock Screen > Notifications on Lock Screen, select Don't Show Notifications At All
+   * Under Advanced > turn Tap to Sleep off
+3. In Settings > About Tablet
+   * Tap Build Number 7 times to unlock Developer Mode
+4. In Settings > System > Status Bar
+   * Select System Icons and turn off everything but WiFi and Battery
+   * Turn off Auto Brightness
+5. In Settings > System > Developer Options
+   * Turn on "Stay Awake"
+   * Turn off "Automatic System Updates"
+6. Remove all apps except Fotoo and Google Drive from the Home Screen by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location).
+7. Long press on an empty part of the Home Screen. A menu will pop up. Select Home Settings.
+   * If you're ready to lock everything in place, turn off Allow Edit.
+   * Select Hidden & Protected Apps and hide everything. (You can still access Fotoo and Google Drive from the dock.)
+   * Turn off Show Icon Labels on Desktop
+
 
 ## Set Up Script
 
