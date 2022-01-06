@@ -80,7 +80,7 @@ There are a lot of really great open source and DIY solutions for wall-mounted d
 5. In Settings > System > Developer Options
    * Turn on "Stay Awake"
    * Turn off "Automatic System Updates"
-6. Remove all apps except Fotoo and Google Drive from the Home Screen by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location).
+6. On the Home Screen, remove all apps except Fotoo and Google Drive by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location). < PHOTO >
 7. Long press on an empty part of the Home Screen. A menu will pop up. Select Home Settings.
    * Turn off Allow Edit
    * Select Hidden & Protected Apps and hide everything. (You can still access Fotoo and Google Drive from the dock.)
