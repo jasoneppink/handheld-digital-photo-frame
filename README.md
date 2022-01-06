@@ -5,7 +5,7 @@ We were able to make one using off-the-shelf hardware and software for a total o
 
 | Feature | Solution |
 | --- | --- |
-| Cheap touch screen | [Rooted](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) Amazon Fire HD 8 running [LineageOS](https://lineageos.org/) |
+| Cheap touch screen | Amazon Fire HD 8 (2018, 8th Generation) [unlocked and rooted](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/), running [LineageOS](https://lineageos.org/) |
 | Digital photo frame software with passive and interactive modes | [Fotoo](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) via [Open GApps](https://opengapps.org/)|
 | Photos updated via GMail and Google Drive | [Gmail2GDrive](https://github.com/ahochsteger/gmail2gdrive) |
 | Wireless charging | DIY wireless charging stand |
