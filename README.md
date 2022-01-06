@@ -49,13 +49,13 @@ We were able to make one using off-the-shelf hardware and software for a total o
    * [Google Drive](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en_US&gl=US) (Optional. Allows you to organize photos directly from the device.)
 4. Launch Fotoo
    1. Select Google Drive and link your `xxxx.family.photo.frame@gmail.com` account. Select My Files and check the box next to Digital Photo Frame. Select Complete.
-   2. Turn on Launch On Boot, and give Fotoo the "draw system overlay" permission when requested
+   2. Turn on Launch On Boot, and enable "draw system overlay" permission for Fotoo when requested
    3. My preferred settings:
       * Display Effect: Scale to Fit Center
       * Transition Effect: Cross Fade
       * Order: Random (preference given to recent photos)
 
-## Lock It Down
+## Kioskify the Tablet
 1. Go to Settings > Apps & Notifications > See All 19 Apps. Select each of the following apps and press Disable. (You may have to select Force Stop first.)
    * Android Auto
    * Browser
