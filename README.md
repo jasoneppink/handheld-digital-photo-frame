@@ -1,9 +1,12 @@
 # Handheld Digital Photo Frame
-There are a lot of really great open source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However, we wanted something that allows the user to hold the display and swipe through the photos, in addition to a default, passive slideshow mode. For convenience, it would also need to charge wirelessly. Our solution cost $143 and is made from off-the-shelf hardware and software.
+
+< PHOTOS >
+
+There are lots of really great open source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However, we wanted something that allows the user to hold the display and swipe through the photos, in addition to a default, passive slideshow mode. For the interaction to feel simple and natural, the screen would also need to charge wirelessly. We pieced together a solution from off-the-shelf hardware and software for $143.
 
 | Feature | Solution |
 | --- | --- |
-| Cheap, handheld touch screen | Amazon Fire HD 8 (2018, 8th Generation) [unlocked and rooted](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/), running [LineageOS](https://lineageos.org/) |
+| Affordable handheld touch screen | Amazon Fire HD 8 Tablet [unlocked & rooted](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/), running [LineageOS](https://lineageos.org/) |
 | Digital photo frame software with passive and interactive modes | [Fotoo](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) via [Open GApps](https://opengapps.org/)|
 | Photos updated via GMail and Google Drive | [Gmail2GDrive](https://github.com/ahochsteger/gmail2gdrive) |
 | Wireless charging | DIY wireless charging stand |
