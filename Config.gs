@@ -20,6 +20,8 @@ function getGmail2GDriveConfig() {
     // Processing rules:
     "rules": [
       { // Store all jp(e)g attachments to folder "Digital Photo Frame"
+        // "filter": "has:attachment from:example1@example.com",
+        // "filter": "has:attachment (from:example1@example.com OR from:example2@example.com)", 
         "filter": "has:attachment",
         "folder": "'Digital Photo Frame'",
         "filenameFromRegexp": ".*\.jpe*g$|.*\.JPE*G$"
