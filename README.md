@@ -30,7 +30,7 @@ We were able to make one using off-the-shelf hardware and software for a total o
 
 ## Unlock the Tablet
 1. Turn off and fully charge the tablet.
-2. Take the back plastic off the tablet.
+2. Take the back plastic off the tablet. < PHOTO >
 3. Follow [these instructions](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) by xyz\` to root the tablet, with the following modifications:
    1. After Step 10, you may get this error: `fastboot: error unknown target "recovery"` [The solution](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/post-85721447) is to run this command: `fastboot reboot emergency`
    2. At Step 12, you'll also want to download two more files: [LineageOS 18.1](https://forum.xda-developers.com/t/rom-unstable-unlocked-karnak-lineage-18-1-25-october-2021.4352241/) unofficial build by Kaijones23 and [Open GApps](https://opengapps.org/) ARM 11.0 Pico. Push them like the other files: `adb push [filename].zip /sdcard`
@@ -82,7 +82,7 @@ We were able to make one using off-the-shelf hardware and software for a total o
    * Turn off "Automatic System Updates"
 6. Remove all apps except Fotoo and Google Drive from the Home Screen by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location).
 7. Long press on an empty part of the Home Screen. A menu will pop up. Select Home Settings.
-   * If you're ready to lock everything in place, turn off Allow Edit.
+   * Turn off Allow Edit
    * Select Hidden & Protected Apps and hide everything. (You can still access Fotoo and Google Drive from the dock.)
    * Turn off Show Icon Labels on Desktop
 
