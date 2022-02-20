@@ -52,11 +52,11 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    * [Google Drive](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en_US&gl=US) (Optional. Allows you to organize photos directly from the device.)
 4. Launch Fotoo
    1. Select Google Drive and link your `xxxx.family.photo.frame@gmail.com` account. Select My Files and check the box next to Digital Photo Frame. Select Complete.
-   2. Turn on Launch On Boot, and enable "draw system overlay" permission for Fotoo when requested
-   3. My preferred settings:
+   2. Open Settings, turn on Launch On Boot, and enable "draw system overlay" permission for Fotoo when requested
+   3. Other recommended settings:
       * Display Effect: Scale to Fit Center
       * Transition Effect: Cross Fade
-      * Order: Random (preference given to recent photos)
+      * Photo Order: Random (preference given to recent photos)
 
 ## Kioskify the Tablet
 1. Go to Settings > Apps & Notifications > See All 19 Apps. Select each of the following apps and press Disable. (You may have to select Force Stop first.)
@@ -80,7 +80,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 4. In Settings > System > Status Bar
    * Select System Icons and turn off everything but WiFi and Battery
    * Turn off Auto Brightness
-5. In Settings > System > Developer Options
+5. In Settings > System > Advanced > Developer Options
    * Turn on "Stay Awake"
    * Turn off "Automatic System Updates"
 6. On the Home Screen, remove all apps except Fotoo and Google Drive by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location). < PHOTO >
