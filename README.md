@@ -39,7 +39,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    2. At Step 12, you'll also want to download two more files: [LineageOS 18.1](https://forum.xda-developers.com/t/rom-unstable-unlocked-karnak-lineage-18-1-25-october-2021.4352241/) unofficial build by Kaijones23 and [Open GApps](https://opengapps.org/) ARM 11.0 Pico. Push them like the other files: `adb push [filename].zip /sdcard`
    3. After Step 20, reboot into recovery again. (Hold down the power button, select "Restart", then hold the volume down button as the tablet restarts.)
    4. Select "Wipe", then "Advanced Wipe", and select System, Data, and Cache. Swipe to wipe.
-   5. Select "Install", then select the Lineage OS ZIP file. Swipe to wipe.
+   5. Go back and select "Install", then select the Lineage OS ZIP file. Swipe to wipe.
    6. Go back and do the same to install the Open GApps ZIP file. Swipe to wipe.
    7. Select "Reboot System".
    8. Done! Reassemble the tablet.
@@ -70,7 +70,6 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    * Recorder
 2. In Settings > Display
    * Select Brightness Level and increase it to 100%
-   * Select Adaptive Brightness and turn Adaptive Brightness off
    * Under Advanced > Rotation settings, turn on Auto-Rotate Screen
    * Select Advanced > Screen Saver > When to Start, and select Never
    * Under Advanced > Lock Screen > Notifications on Lock Screen, select Don't Show Notifications At All
