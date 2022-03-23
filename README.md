@@ -107,7 +107,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 
 5. Cut out a piece of paper to prototype how you'll cut your adhesive felt.
 
-<img src="/images/felt-cutout-paper.jpg" height=200 align=center>  <img src="/images/felt-install-paper-front.jpg" height=200 align=center>  <img src="/images/felt-install-paper-back.jpg" height=200 align=center> 
+<img src="/images/felt-cutout-paper.jpg" height=150 align=center>  <img src="/images/felt-install-paper-front.jpg" height=150 align=center>  <img src="/images/felt-install-paper-back.jpg" height=150 align=center> 
 
 6. When you're satisfied with the coverage, cut the shape out with felt and glue it on!
 
