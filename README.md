@@ -1,6 +1,6 @@
 # Handheld Digital Photo Frame
 
-< PHOTOS >
+<img src="/images/docked.jpg" height=300 align=center>        <img src="/images/undocked.jpg" height=300 align=center>
 
 There are lots of really great open source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However we wanted something that, in addition to a default passive slideshow mode, allowed the user to pick up the screen and swipe through the photos. For this interaction to feel simple and natural, the screen would also need to charge wirelessly. We pieced together a solution from off-the-shelf hardware and software for $143.
 
@@ -70,7 +70,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    * Recorder
 2. In Settings > Display
    * Select Brightness Level and increase it to 100%
-   * Under Advanced > Rotation settings, turn on Auto-Rotate Screen
+   * Under Advanced > Rotation settings, turn on Auto-Rotate Screen and make sure only 0 and 270 degrees are checked under Rotation Mode
    * Select Advanced > Screen Saver > When to Start, and select Never
    * Under Advanced > Lock Screen > Notifications on Lock Screen, select Don't Show Notifications At All
    * Under Advanced > turn Tap to Sleep off
@@ -89,6 +89,30 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    * Turn off Show Icon Labels on Desktop
 
 ## Install Wireless Charging
+1. Unsolder the charging pad from the board.
+
+<img src="/images/transmitter-unsoldered.jpg" height=250 align=center> 
+
+2. Resolder it so the charging pad is on the front of the stand, and the board is on the back. Tape in place.
+
+<img src="/images/tape-test-front.jpg" height=250 align=center>   <img src="/images/tape-test-back.jpg" height=250 align=center> 
+
+3. Insert the wireless receiver into the tablet's USB port and tape the receiver to the back of the tablet. Plug in the wireless transmitter and test that it charges the tablet when it sits on the stand. Wireless charging can be finnicky. Try many different variations. Test for days.
+
+<img src="/images/tape-test-tablet.jpg" height=250 align=center> 
+
+5. When you're satisfied with performance, glue it!
+
+<img src="/images/glued-front.jpg" height=250 align=center>   <img src="/images/glued-back.jpg" height=250 align=center> 
+
+5. Cut out a piece of paper to prototype how you'll cut your adhesive felt.
+
+<img src="/images/felt-cutout-paper.jpg" height=200 align=center>  <img src="/images/felt-install-paper-front.jpg" height=200 align=center>  <img src="/images/felt-install-paper-back.jpg" height=200 align=center> 
+
+6. When you're satisfied with your shape, cut it out with felt and glue it on!
+
+<img src="/images/felt-cutout-felt.jpg" height=200 align=center>  <img src="/images/felt-install-felt-front.jpg" height=200 align=center>  <img src="/images/felt-install-felt-back.jpg" height=200 align=center> 
+
 
 ## Final Touches
 * You can lock Fotoo
