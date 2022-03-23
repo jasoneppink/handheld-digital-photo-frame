@@ -1,6 +1,6 @@
 # Handheld Digital Photo Frame
 
-<img src="/images/docked.jpg" height=300 align=center>        <img src="/images/undocked.jpg" height=300 align=center>
+<img src="/images/docked.jpg" height=250 align=center>        <img src="/images/undocked.jpg" height=250 align=center>
 
 There are lots of really great open source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However we wanted something that, in addition to a default passive slideshow mode, allowed the user to pick up the screen and swipe through the photos. For this interaction to feel simple and natural, the screen would also need to charge wirelessly. We pieced together a solution from off-the-shelf hardware and software for $143.
 
