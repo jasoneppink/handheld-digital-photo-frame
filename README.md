@@ -111,7 +111,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 
 6. When you're satisfied with the coverage, cut the shape out with felt and glue it on!
 
-<img src="/images/felt-cutout-felt.jpg" height=200 align=center>  <img src="/images/felt-install-felt-front.jpg" height=200 align=center>  <img src="/images/felt-install-felt-back.jpg" height=200 align=center> 
+<img src="/images/felt-cutout-felt.jpg" height=150 align=center>  <img src="/images/felt-install-felt-front.jpg" height=150 align=center>  <img src="/images/felt-install-felt-back.jpg" height=150 align=center> 
 
 
 ## Final Touches
