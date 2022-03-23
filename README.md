@@ -33,7 +33,10 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 
 ## Unlock the Tablet
 1. Turn off and fully charge the tablet.
-2. Take the back plastic off the tablet. < PHOTO >
+2. Take the back plastic off the tablet.
+
+<img src="/images/tablet-removing-back.jpg" width=347 align=center>  <img src="/images/tablet-back-off.jpg" width=347 align=center>
+
 3. Follow [these instructions](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) by xyz\` to root the tablet, with the following modifications:
    1. After Step 10, you may get this error: `fastboot: error unknown target "recovery"` [The solution](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/post-85721447) is to run this command: `fastboot reboot emergency`
    2. At Step 12, you'll also want to download two more files: [LineageOS 18.1](https://forum.xda-developers.com/t/rom-unstable-unlocked-karnak-lineage-18-1-25-october-2021.4352241/) unofficial build by Kaijones23 and [Open GApps](https://opengapps.org/) ARM 11.0 Pico. Push them like the other files: `adb push [filename].zip /sdcard`
@@ -82,7 +85,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 5. In Settings > System > Advanced > Developer Options
    * Turn on "Stay Awake"
    * Turn off "Automatic System Updates"
-6. On the Home Screen, remove all apps except Fotoo and Google Drive by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location). < PHOTO >
+6. On the Home Screen, remove all apps except Fotoo and Google Drive by dragging them to the top of the screen. Move Fotoo and Google Drive to the dock (or your preferred location).
 7. Long press on an empty part of the Home Screen. A menu will pop up. Select Home Settings.
    * Turn off Allow Edit
    * Select Hidden & Protected Apps and hide everything. (You can still access Fotoo and Google Drive from the dock.)
