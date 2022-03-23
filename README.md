@@ -97,7 +97,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 
     <img src="/images/transmitter-unsoldered.jpg" width=230 align=center>  <img src="/images/tape-test-front.jpg" width=230 align=center>   <img src="/images/tape-test-back.jpg" width=230 align=center> 
 
-2. Plug the wireless receiver into the tablet's USB port and tape it to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when seated in the stand. Wireless charging can be finnicky, so try many different positions and test your margin of error. Test for days.
+2. Plug the wireless receiver into the tablet's USB port and tape it to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when seated in the stand. Wireless charging can be finnicky, so try many different positions and see how forgiving they are. Test for days.
 
     <img src="/images/tape-test-tablet.jpg" width=347 align=center> 
 
