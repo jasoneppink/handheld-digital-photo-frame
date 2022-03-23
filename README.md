@@ -97,7 +97,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 
 <img src="/images/tape-test-front.jpg" height=250 align=center>   <img src="/images/tape-test-back.jpg" height=250 align=center> 
 
-3. Insert the wireless receiver into the tablet's USB port and tape the receiver to the back of the tablet. Plug in the wireless transmitter and test that it charges the tablet when it sits on the stand. Wireless charging can be finnicky. Try many different variations. Test for days.
+3. Insert the wireless receiver into the tablet's USB port and tape the receiver to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when it sits on the stand. Wireless charging can be finnicky. Try many different positions. Test for days.
 
 <img src="/images/tape-test-tablet.jpg" height=250 align=center> 
 
@@ -109,7 +109,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 
 <img src="/images/felt-cutout-paper.jpg" height=200 align=center>  <img src="/images/felt-install-paper-front.jpg" height=200 align=center>  <img src="/images/felt-install-paper-back.jpg" height=200 align=center> 
 
-6. When you're satisfied with your shape, cut it out with felt and glue it on!
+6. When you're satisfied with the coverage, cut the shape out with felt and glue it on!
 
 <img src="/images/felt-cutout-felt.jpg" height=200 align=center>  <img src="/images/felt-install-felt-front.jpg" height=200 align=center>  <img src="/images/felt-install-felt-back.jpg" height=200 align=center> 
 
