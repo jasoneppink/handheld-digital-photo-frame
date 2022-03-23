@@ -1,6 +1,6 @@
 # Handheld Digital Photo Frame
 
-<img src="/images/docked.jpg" height=250 align=center>        <img src="/images/undocked.jpg" height=250 align=center>
+<img src="/images/docked.jpg" width=400 align=center>        <img src="/images/undocked.jpg" width=400 align=center>
 
 There are lots of really great open source and DIY solutions for wall-mounted digital photo frames, most running [MagicMirror²](https://github.com/MichMich/MagicMirror) on Raspbery Pis. However we wanted something that, in addition to a default passive slideshow mode, allowed the user to pick up the screen and swipe through the photos. For this interaction to feel simple and natural, the screen would also need to charge wirelessly. We pieced together a solution from off-the-shelf hardware and software for $143.
 
@@ -35,7 +35,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 1. Turn off and fully charge the tablet.
 2. Take the back plastic off the tablet.
 
-<img src="/images/tablet-removing-back.jpg" width=347 align=center>  <img src="/images/tablet-back-off.jpg" width=347 align=center>
+     <img src="/images/tablet-removing-back.jpg" width=347 align=center>  <img src="/images/tablet-back-off.jpg" width=347 align=center>
 
 3. Follow [these instructions](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/) by xyz\` to root the tablet, with the following modifications:
    1. After Step 10, you may get this error: `fastboot: error unknown target "recovery"` [The solution](https://forum.xda-developers.com/t/fire-hd-8-2018-only-unbrick-downgrade-unlock-root.3894256/post-85721447) is to run this command: `fastboot reboot emergency`
@@ -90,38 +90,39 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    * Turn off Allow Edit
    * Select Hidden & Protected Apps and hide everything. (You can still access Fotoo and Google Drive from the dock.)
    * Turn off Show Icon Labels on Desktop
+8. Launch Fotoo and lock the screen.
 
 ## Install Wireless Charging
 1. Unsolder the charging pad from the board and resolder it so the charging pad is on the front of the stand and the board is on the back. Tape in place.
 
-<img src="/images/transmitter-unsoldered.jpg" width=230 align=center>  <img src="/images/tape-test-front.jpg" width=230 align=center>   <img src="/images/tape-test-back.jpg" width=230 align=center> 
+    <img src="/images/transmitter-unsoldered.jpg" width=230 align=center>  <img src="/images/tape-test-front.jpg" width=230 align=center>   <img src="/images/tape-test-back.jpg" width=230 align=center> 
 
-2. Insert the wireless receiver into the tablet's USB port and tape the receiver to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when it sits on the stand. Wireless charging can be finnicky. Try many different positions. Test for days.
+2. Plug the wireless receiver into the tablet's USB port and tape it to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when seated in the stand. Wireless charging can be finnicky, so try many different positions and test your margin of error. Test for days.
 
-<img src="/images/tape-test-tablet.jpg" width=347 align=center> 
+    <img src="/images/tape-test-tablet.jpg" width=347 align=center> 
 
-3. When you're satisfied with performance, glue it!
+3. When you're satisfied with charging performance, glue everything!
 
-<img src="/images/glued-front.jpg" width=347 align=center>   <img src="/images/glued-back.jpg" width=347 align=center> 
+    <img src="/images/glued-front.jpg" width=347 align=center>   <img src="/images/glued-back.jpg" width=347 align=center> 
 
-4. Cut out a piece of paper to prototype how you'll cut your adhesive felt.
+4. Cut out a piece of paper to prototype how you'll cut your felt.
 
-<img src="/images/felt-cutout-paper.jpg" width=230 align=center>  <img src="/images/felt-install-paper-front.jpg" width=230 align=center>  <img src="/images/felt-install-paper-back.jpg" width=230 align=center> 
+    <img src="/images/felt-cutout-paper.jpg" width=230 align=center>  <img src="/images/felt-install-paper-front.jpg" width=230 align=center>  <img src="/images/felt-install-paper-back.jpg" width=230 align=center> 
 
 5. When you're satisfied with the coverage, cut your felt and glue it on!
 
-<img src="/images/felt-cutout-felt.jpg" width=230 align=center>  <img src="/images/felt-install-felt-front.jpg" width=230 align=center>  <img src="/images/felt-install-felt-back.jpg" width=230 align=center> 
+    <img src="/images/felt-cutout-felt.jpg" width=230 align=center>  <img src="/images/felt-install-felt-front.jpg" width=230 align=center>  <img src="/images/felt-install-felt-back.jpg" width=230 align=center> 
 
 6. Acquire two small, square dowels. We found it easier to pull a couple off these tiny easels.
 
-<img src="/images/two-easels.jpg" width=230 align=center>  <img src="/images/black-dowels.jpg" width=230 align=center>
+    <img src="/images/two-easels.jpg" width=347 align=center>  <img src="/images/black-dowels.jpg" width=347 align=center>
 
-7. The dowels help seat the tablet on the stand so the wireless transmitter and receiver align properly. Glue them on the back of the tablet. Some felt padding may also help with alignment. Finish the back by gluing on a layer of felt.
+7. The dowels help guide the tablet onto the stand so the wireless transmitter and receiver align properly. Glue them to the back of the tablet. Some felt padding may also help even out the bulge of the wireless receiver. Finish the back by gluing on a layer of felt.
 
-<img src="/images/tablet-dowels-and-padding.jpg" width=347 align=center>  <img src="/images/tablet-back-felt-final.jpg" width=347 align=center>
+    <img src="/images/tablet-dowels-and-padding.jpg" width=347 align=center>  <img src="/images/tablet-back-felt-final.jpg" width=347 align=center>
 
+8. Enjoy!
 
-## Final Touches
-* You can lock Fotoo
+    <img src="/images/undocked.jpg" width=698 align=center>
 
 \*project by Jason Eppink and Jenna Eppink
