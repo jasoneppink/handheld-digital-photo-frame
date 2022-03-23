@@ -14,7 +14,7 @@ There are lots of really great open source and DIY solutions for wall-mounted di
 ## Materials / Costs
 ![Amazon Fire HD 8 Tablet (2018, 8th Generation)](images/fire_tablet.jpg) | ![Qi Receiver](images/qi_receiver.jpg) | ![Qi Wireless Charger)](images/qi_wireless_charger.jpg) | ![Tablet Stand](images/stand.jpg) | ![E6000 Glue (Black)](images/e6000.jpg) | ![Adhesive Felt (Black)](images/adhesive_felt.jpg) | ![Wooden Dowels (Black)](images/easels.jpg) | ![Fotoo - Digital Photo Frame Photo Slideshow Player](images/fotoo.jpg) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Amazon Fire HD 8 Tablet (2018, 8th Generation)](https://www.amazon.com/gp/product/B0794RHPZD)* ($57) | [Micro-USB Qi Charger Receiver](https://www.amazon.com/gp/product/B07C82R5DD) ($11) | [3-Coil Qi Wireless Charger Transmitter](https://www.amazon.com/gp/product/B07M6CRGFP) ($18) | [Tablet Stand](https://www.amazon.com/dp/B06XKCSJDB) ($16) | [E6000 Adhesive (Black)](https://www.amazon.com/Eclectic-Products-Multipurpose-Adhesive-2-Ounce/dp/B07DS6BZR8) ($9) | [Adhesive Felt (Black)](https://www.amazon.com/gp/product/B08CZFQB7M) ($7) | [Square Dowels (Black)](https://www.amazon.com/dp/B00NLOYFTE) ($10) | [Fotoo - Digital Photo Frame Photo Slideshow Player](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) ($15) |
+| [Amazon Fire HD 8 Tablet (2018, 8th Generation)](https://www.amazon.com/gp/product/B0794RHPZD)* ($57) | [Micro-USB Qi Charger Receiver](https://www.amazon.com/gp/product/B07C82R5DD) ($11) | [3-Coil Qi Wireless Charger Transmitter](https://www.amazon.com/gp/product/B07M6CRGFP) ($18) | [Tablet Stand](https://www.amazon.com/dp/B06XKCSJDB) ($16) | [E6000 Adhesive](https://www.amazon.com/Eclectic-Products-Multipurpose-Adhesive-2-Ounce/dp/B07DS6BZR8) ($9) | [Adhesive Felt (Black)](https://www.amazon.com/gp/product/B08CZFQB7M) ($7) | [Square Dowels (Black)](https://www.amazon.com/dp/B00NLOYFTE) ($10) | [Fotoo - Digital Photo Frame Photo Slideshow Player](https://play.google.com/store/apps/details?id=com.bo.fotoo&hl=en_US&gl=US) ($15) |
 
 *IMPORTANT: Must be 8th Generation (2018) model. Either 16GB or 32GB is okay.
 
@@ -89,29 +89,33 @@ There are lots of really great open source and DIY solutions for wall-mounted di
    * Turn off Show Icon Labels on Desktop
 
 ## Install Wireless Charging
-1. Unsolder the charging pad from the board.
+1. Unsolder the charging pad from the board and resolder it so the charging pad is on the front of the stand and the board is on the back. Tape in place.
 
-<img src="/images/transmitter-unsoldered.jpg" height=250 align=center> 
+<img src="/images/transmitter-unsoldered.jpg" width=230 align=center>  <img src="/images/tape-test-front.jpg" width=230 align=center>   <img src="/images/tape-test-back.jpg" width=230 align=center> 
 
-2. Resolder it so the charging pad is on the front of the stand, and the board is on the back. Tape in place.
+2. Insert the wireless receiver into the tablet's USB port and tape the receiver to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when it sits on the stand. Wireless charging can be finnicky. Try many different positions. Test for days.
 
-<img src="/images/tape-test-front.jpg" height=250 align=center>   <img src="/images/tape-test-back.jpg" height=250 align=center> 
+<img src="/images/tape-test-tablet.jpg" width=347 align=center> 
 
-3. Insert the wireless receiver into the tablet's USB port and tape the receiver to the back of the tablet. Power the wireless transmitter and test that it charges the tablet when it sits on the stand. Wireless charging can be finnicky. Try many different positions. Test for days.
+3. When you're satisfied with performance, glue it!
 
-<img src="/images/tape-test-tablet.jpg" height=250 align=center> 
+<img src="/images/glued-front.jpg" width=347 align=center>   <img src="/images/glued-back.jpg" width=347 align=center> 
 
-5. When you're satisfied with performance, glue it!
+4. Cut out a piece of paper to prototype how you'll cut your adhesive felt.
 
-<img src="/images/glued-front.jpg" height=250 align=center>   <img src="/images/glued-back.jpg" height=250 align=center> 
+<img src="/images/felt-cutout-paper.jpg" width=230 align=center>  <img src="/images/felt-install-paper-front.jpg" width=230 align=center>  <img src="/images/felt-install-paper-back.jpg" width=230 align=center> 
 
-5. Cut out a piece of paper to prototype how you'll cut your adhesive felt.
+5. When you're satisfied with the coverage, cut your felt and glue it on!
 
-<img src="/images/felt-cutout-paper.jpg" height=150 align=center>  <img src="/images/felt-install-paper-front.jpg" height=150 align=center>  <img src="/images/felt-install-paper-back.jpg" height=150 align=center> 
+<img src="/images/felt-cutout-felt.jpg" width=230 align=center>  <img src="/images/felt-install-felt-front.jpg" width=230 align=center>  <img src="/images/felt-install-felt-back.jpg" width=230 align=center> 
 
-6. When you're satisfied with the coverage, cut the shape out with felt and glue it on!
+6. Acquire two small, square dowels. We found it easier to pull a couple off these tiny easels.
 
-<img src="/images/felt-cutout-felt.jpg" height=150 align=center>  <img src="/images/felt-install-felt-front.jpg" height=150 align=center>  <img src="/images/felt-install-felt-back.jpg" height=150 align=center> 
+<img src="/images/two-easels.jpg" width=230 align=center>  <img src="/images/black-dowels.jpg" width=230 align=center>
+
+7. The dowels help seat the tablet on the stand so the wireless transmitter and receiver align properly. Glue them on the back of the tablet. Some felt padding may also help with alignment. Finish the back by gluing on a layer of felt.
+
+<img src="/images/tablet-dowels-and-padding.jpg" width=347 align=center>  <img src="/images/tablet-back-felt-final.jpg" width=347 align=center>
 
 
 ## Final Touches
